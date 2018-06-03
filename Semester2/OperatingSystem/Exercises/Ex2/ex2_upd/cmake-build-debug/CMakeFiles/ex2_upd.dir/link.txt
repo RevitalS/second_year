@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/ex2_upd.dir/main.c.o  -o ex2_upd 

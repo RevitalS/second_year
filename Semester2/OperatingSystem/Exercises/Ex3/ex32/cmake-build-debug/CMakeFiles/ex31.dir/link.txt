@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/ex31.dir/ex31.c.o  -o ex31 

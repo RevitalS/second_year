@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -Werror -g   CMakeFiles/ex1_c.dir/ex1.c.o CMakeFiles/ex1_c.dir/main.c.o  -o ex1_c 

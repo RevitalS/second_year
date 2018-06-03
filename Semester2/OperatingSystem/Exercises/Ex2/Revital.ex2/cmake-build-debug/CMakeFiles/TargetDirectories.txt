@@ -1,0 +1,3 @@
+/home/sha/Dropbox/SecondYear/SecondSemester/OperatingSystem/Exercises/Ex2/Revital.ex2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sha/Dropbox/SecondYear/SecondSemester/OperatingSystem/Exercises/Ex2/Revital.ex2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sha/Dropbox/SecondYear/SecondSemester/OperatingSystem/Exercises/Ex2/Revital.ex2/cmake-build-debug/CMakeFiles/Revital_ex2.dir

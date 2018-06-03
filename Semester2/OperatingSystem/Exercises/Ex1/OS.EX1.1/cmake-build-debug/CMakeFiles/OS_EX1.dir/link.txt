@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/OS_EX1.dir/ex11.c.o  -o OS_EX1 

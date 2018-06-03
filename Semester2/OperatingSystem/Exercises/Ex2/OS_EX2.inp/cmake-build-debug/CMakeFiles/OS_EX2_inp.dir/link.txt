@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/OS_EX2_inp.dir/ex2.inp.c.o  -o OS_EX2_inp 

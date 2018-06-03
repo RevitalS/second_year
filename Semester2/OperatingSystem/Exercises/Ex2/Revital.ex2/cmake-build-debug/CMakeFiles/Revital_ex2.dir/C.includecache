@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sha/Dropbox/SecondYear/SecondSemester/OperatingSystem/Exercises/Ex2/Revital.ex2/ex2.c
+sys/fcntl.h
+-
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+sys/wait.h
+-
+

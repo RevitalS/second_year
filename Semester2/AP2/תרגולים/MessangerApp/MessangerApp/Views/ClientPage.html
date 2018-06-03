@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    Enter your phone num: <input type="tel" id="userPhoneNum"/>
+    <button id="btnConnect">Connect</button><br/>
+
+    <h2>Received Messages</h2>
+    <ul id="lstMessages"></ul>
+
+    <h2>Send Message</h2>
+    Enter phone num: <input type="tel" id="targetPhoneNum"/><br/>
+    Enter text: <input type="text" id="msgText"/><br/>
+    <button id="btnSendMessage">Send</button>
+
+
+    <script src="../Scripts/jquery-1.6.4.js"></script>
+    <script src="../Scripts/jquery.signalR-2.2.2.js"></script>
+    <script src="../signalr/hubs"></script>
+    <script>
+        var messagesHub = $.connection.messagesHub;
+
+        messagesHub.client.gotMessage = function (senderPhoneNum, text) {
+            $("#lstMessages").append("<li><strong>" + senderPhoneNum + "</strong>:" + text + "</li>");
+        };
+
+        $.connection.hub.start().done(function () {
+            $("#btnConnect").click(function () {
+                var userPhoneNum = $("#userPhoneNum").val();
+                messagesHub.server.connect(userPhoneNum);
+            });
+
+            $("#btnSendMessage").click(function () {
+                var userPhoneNum = $("#userPhoneNum").val();
+                var senderPhoneNum = $("#targetPhoneNum").val();
+                var text = $("#msgText").val();
+                messagesHub.server.sendMessage(userPhoneNum, senderPhoneNum, text);
+            });
+        });
+    </script>
+</body>
+</html>

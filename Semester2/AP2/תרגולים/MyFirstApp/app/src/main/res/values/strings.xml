@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="text_msg">Enter your message</string>
+    <string name="btnShowMsg">Show</string>
+    <string name="openActivity">Open</string>
+</resources>

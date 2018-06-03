@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/ex3_files.dir/main-test.c.o  -o ex3_files 

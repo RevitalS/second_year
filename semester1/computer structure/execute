@@ -1,0 +1,8 @@
+#! /bin/bash
+make clean
+make
+valgrind --tool=callgrind ./showBMP gibson_500.bmp
+echo "compare sharpen"
+cmp Sharpen.bmp Sharpen_correct.bmp
+echo "compare blur"
+cmp Blur.bmp Blur_correct.bmp

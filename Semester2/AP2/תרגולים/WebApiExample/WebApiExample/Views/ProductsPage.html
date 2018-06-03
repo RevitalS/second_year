@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <h2>Add New Product</h2>
+    Id: <input type="number"/><br/>
+    Name: <input type="text"/><br/>
+    Price: <input type="number"/><br/>
+    <button id="btnAddProduct">Add Product</button>
+
+    <h2>Products Table</h2>
+    <table id="tblProducts">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </table>
+
+
+    <script src="../Scripts/jquery-3.1.1.js"></script>
+    <script>
+        var productsUrl = "../api/products";
+        $.getJSON(productsUrl, function (data) {
+            
+            data.forEach(function (product) {
+                $("#tblProducts").append("<tr><td>" + product.Id + "</td>" +
+                    "<td>" + product.Name + "</td>" +
+                    "<td>" + product.Price + "</td></tr>");
+            });
+        });
+    </script>
+</body>
+</html>

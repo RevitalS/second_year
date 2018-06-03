@@ -1,0 +1,4 @@
+/home/sha/Dropbox/SecondYear/SecondSemester/OperatingSystem/Exercises/Ex3/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sha/Dropbox/SecondYear/SecondSemester/OperatingSystem/Exercises/Ex3/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sha/Dropbox/SecondYear/SecondSemester/OperatingSystem/Exercises/Ex3/untitled/cmake-build-debug/CMakeFiles/untitled2.dir
+/home/sha/Dropbox/SecondYear/SecondSemester/OperatingSystem/Exercises/Ex3/untitled/cmake-build-debug/CMakeFiles/untitled1.dir

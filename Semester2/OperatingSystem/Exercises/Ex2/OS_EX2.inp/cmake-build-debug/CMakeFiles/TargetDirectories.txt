@@ -1,0 +1,3 @@
+/home/sha/Dropbox/SecondYear/SecondSemester/OperatingSystem/Exercises/Ex2/OS_EX2.inp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sha/Dropbox/SecondYear/SecondSemester/OperatingSystem/Exercises/Ex2/OS_EX2.inp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sha/Dropbox/SecondYear/SecondSemester/OperatingSystem/Exercises/Ex2/OS_EX2.inp/cmake-build-debug/CMakeFiles/OS_EX2_inp.dir

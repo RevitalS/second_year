@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/Revital_upd.dir/ex2_upd.c.o  -o Revital_upd 

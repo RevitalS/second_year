@@ -1,0 +1,3 @@
+/home/sha/Dropbox/ex1.c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sha/Dropbox/ex1.c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sha/Dropbox/ex1.c/cmake-build-debug/CMakeFiles/ex1_c.dir

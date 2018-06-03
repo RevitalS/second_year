@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sha/Dropbox/SecondYear/SecondSemester/OperatingSystem/Exercises/Ex1/OS.EX1.2/ex12.c
+stdio.h
+-
+dirent.h
+-
+string.h
+-
+unistd.h
+-
+fcntl.h
+-
+stdlib.h
+-
+sys/stat.h
+-
+sys/wait.h
+-
+

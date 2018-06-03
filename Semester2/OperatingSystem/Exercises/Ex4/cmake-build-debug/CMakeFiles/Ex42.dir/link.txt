@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/Ex42.dir/ex42.c.o  -o Ex42 -lpthread 
